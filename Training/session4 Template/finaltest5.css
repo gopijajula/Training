@@ -1,0 +1,539 @@
+header
+{
+    background-color: #6665a9;
+    height: 73px;
+    border: 1px solid;
+}
+.headerchild1
+{
+    color: #ffffff;
+    float: left;
+    width: 44%;
+    height: auto;
+    text-align: end;
+    overflow: hidden;
+}
+.headerchild2
+{
+    width: 56%;
+    float: left;
+    height: auto;
+    padding-top: 4px;
+    text-align: right;
+}
+.headerchild1 h1
+{
+    margin: 0;
+    padding-top: 15px;
+}
+.headerchild2 ul
+{
+    list-style-type: none;
+    margin: 0px;
+    float: right;
+}
+.headerchild2 li
+{
+    float: left;
+    color: #ececf4;
+    padding: 16px;
+    text-align: center;
+}
+.headerchild2 li:hover{
+    background-color: #333399;
+}
+section
+{
+    background-color: #ffffff;
+    height: 1124px;
+}
+.sectionchild1
+{
+    width: 20%;
+    height: 828px;
+    background-color: #e9e9ff;
+    border-right: 1px solid;
+    border-radius: 20px;
+    border-bottom: 1px solid;
+    float: left;
+}
+.sectionparent2
+{
+    clear: both;
+}
+.child1{
+    float: left;
+}
+.maindiv
+{
+    width: 80%;
+    display: flex;
+}
+.child1div
+{
+    width: 50%;
+    display: flex;
+    padding-left: 14px;
+    padding-top: 25px;
+}
+#span
+{
+    width: 100%;
+    background-color: #6665a9;
+    color: white;
+    height: 52px;
+    font-family: sanserif;
+    padding: 9px;
+}
+#span3
+{
+    font-size: 31px;
+
+}
+#span1
+{
+    width: 100%;
+    background-color: #6665a9;
+    color: white;
+    height: 52px;
+    font-family: sanserif;
+    padding: 9px;
+    font-size: 31px;
+}
+.div1
+{
+    width: 100%;
+    height: 241px;
+    border: 1px solid ;
+}
+table {
+    width: 100%;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 5px;
+  }
+  
+  tr:nth-child(even) {background-color: #f2f2f2;}
+body
+{
+    margin: 0px;
+    font-family: sans-serif;
+}
+.child2div
+{
+    width: 50%;    
+    padding-left: 14px;
+    padding-top: 14px;
+
+}
+#overline
+{
+    color: #c3c3c3;
+    text-decoration: line-through;
+}
+#consulting
+{
+    color: white;
+    background-color: #219800;
+}
+#horde
+{
+    color: white;
+    background-color: #f4a700;
+}
+#personal
+{
+    color: white;
+    background-color: #6fd2fe;
+}
+.div2
+{
+    width: 100%;
+    height: 293px;
+    border: 1px solid ;
+}
+.div3
+{
+    width: 100%;
+    height: 582px;    border-bottom: 1px solid ;
+
+    border: 1px solid ;
+}
+#spandiv
+{
+    height: 23px;
+    background-color: #dddddd;
+}
+.div5
+{
+    height: 150px;
+}
+.child4div
+{
+    float: right;
+    width: 50%;
+    padding-left: 14px;
+    padding-top: 25px;
+    padding-right: 14px;
+}
+#taxes
+{
+    background-color: #fefe37;
+}
+#staffmeeting
+{
+    background-color: #f4a700;
+}
+#momsbirthday
+{
+    background-color: #6fd2fe;
+}
+#thrusday
+{
+    background-color: #dddddd;
+    color: #4e4ea4;
+}
+.child5div
+{
+    float: right;
+    width: 50%;
+    padding-left: 14px;
+    padding-top: 14px;
+    padding-right: 14px;
+    height: 248px;
+}
+.child3div
+{
+    width: 50%;
+    display: flex;
+    padding-left: 14px;
+    padding-top: 14px;
+}
+.child8
+{
+    width: 100%;
+    padding-left: 14px;
+    padding-top: 14px;
+    padding-right: 14px;
+    height: 168px;
+
+}
+.div7
+{
+    width: 100%;
+    border: 1px solid ;
+    height: 150px;
+
+}
+#privat
+{
+    background-color: #c6115c;
+}
+.child9
+{
+    width: 100%;
+    padding-left: 14px;
+    padding-top: 14px;
+    padding-right: 14px;
+}
+.div9
+{
+   width: 50%;
+   float: right;
+}
+.div10
+{
+    width: 100%;
+    border: 1px solid ;
+    height: 200px;
+}
+.imgdiv
+{
+    float: left;
+    width: 100%;
+}
+.imgdiv img
+{
+    border-radius: 50%;
+   width: 10%;
+    height: auto;
+    margin-left: 91px;
+}
+*
+{
+    box-sizing: border-box;
+}
+@media screen and (min-width: 375px)  {
+   table,td,tr,th
+    {
+        width: 100%;
+        height: auto;
+    }
+    .sectionchild1
+    {
+        width: 100%;
+    height: auto;
+    font-size: 14px;
+    margin-bottom: 10px;
+    }
+    
+    .responsivediv
+    {
+        clear: both;
+        
+    }
+    .maindiv
+    {
+        width: 100%;
+        display: block;
+    }
+    .child1div
+    {
+        width: 100%;
+        padding: 0px;
+        display: block;
+        margin-bottom: 10px;
+
+    }
+    .child4div
+    {
+        width: 100%;
+        float: none;
+        padding: 0px;
+        margin-bottom: 10px;
+
+    }
+    .div1
+    {
+        width: 100%;
+    height: auto;
+    border: 1px solid;
+    margin-top: 10px;
+    }
+    header{
+        
+        background-color: #6665a9;
+        height: auto;
+    overflow: hidden;
+    }
+    .headerchild1 h1{
+        margin: 0;
+        font-size: 25px;
+        text-align: center;
+        padding: 0;
+        padding-top: 10px;
+    
+    }
+    .headerchild2 ul
+    {
+    list-style-type: none;
+    margin: 0px;
+    float: right;
+    padding: 0px;
+    }
+   
+.headerchild1
+{
+    width: 100%;
+}
+.headerchild2{
+    width: 100%;
+}
+.child2div
+{
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 10px;
+
+}
+.div2
+{
+    width: 100%;
+    height: auto;
+    border: 1px solid;
+}
+.child5div
+{
+    float: none;
+    width: 100%;
+    padding: 0px;
+    height: auto;
+    margin-bottom: 10px;
+
+}
+.child3div
+{
+    width: 100%;
+    display: block;
+    padding: 0px;
+}
+.div3
+{
+    width: 100%;
+    height: auto;
+    border: 1px solid;
+}
+.div9
+{
+    width: 100%;
+    float: none;
+}
+.child8
+{
+    width: 100%;
+    padding: 0px;
+    height: auto;
+    margin-top: 10px;
+}
+.child9
+{
+    width: 100%;
+    padding: 0px;
+    margin-top: 10px;
+
+}
+.div10
+{
+    width: 100%;
+    border: 1px solid;
+    height: auto;
+}
+.imgdiv img
+{
+
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.table
+{
+    width: 100%;
+    height: auto;
+    overflow: auto;
+}
+.section{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+  } 
+
+
+  @media screen and (min-width: 768px)  {
+    .sectionchild1
+    {
+        width: 35%;
+        height: auto;
+        font-size: 14px;
+    }
+    header{
+        width: 100%;
+        background-color: #6665a9;
+        overflow: hidden;
+        height: auto;
+    }
+    
+    .responsivediv
+    {
+        width: 65%;
+        float: left;
+        clear: none;
+    }
+    .headerchild1
+    {
+        width: 50%;
+    height: auto;
+    color: #ffffff;
+    text-align: center;
+    overflow: hidden;
+    }
+   
+.headerchild1 h1
+{margin: 0;
+    padding-top: 15px;
+    font-size: 26px;
+}
+.headerchild2{
+    width: 50%;
+    height: auto
+}
+section{
+    width: 100%;
+    height: auto;
+}
+.section
+
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.div10{
+    width: 100%;
+}
+.child1div
+{
+    width: 100%;
+    display: block;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: auto;
+}
+.responsivediv
+{
+    width: 65%;
+    float: left;
+}
+.maindiv
+{
+    width: 100%;
+    display: block;
+    margin-left: 5px;
+}
+.div1{
+    width: 100%;
+    height: auto;
+    border: 1px solid;
+    margin-top: 10px;
+}
+  }
+
+
+
+   @media screen and (min-width: 1400px) 
+  {
+      section,header,body
+      {
+          width: 100%;
+          height: auto;
+      }
+      header
+      {
+          height: 85px;
+      }
+      .sectionchild1{
+          width: 20%;
+          height:auto;
+      }
+      .maindiv
+      {
+          width: 100%;
+          height: auto;
+      }
+      .responsivediv
+      {
+          width:80% ;
+      }
+      .headerchild1{
+          width: 44%;
+          height: auto;
+      }
+      .headerchild2
+      {
+          width: 56%;
+      }
+
+  }
+  
