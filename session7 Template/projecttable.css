@@ -1,0 +1,223 @@
+.parentdiv
+{
+    width: 100%;
+    height: 685px;
+    border: 2px solid #dfdfdf;
+}
+.child1div
+{
+    width: 48%;
+    float: left;
+    border-right: 2px solid #dfdfdf;
+    height: 667px;
+    padding: 10px;
+}
+.headingdiv
+{
+    width: 100%;
+    height: 30px;
+    color: #fefefe;
+    background-color: #a6a6a6;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 3px;
+    font-size: 20px;
+}
+body{
+    font-family: sans-serif;
+}
+.tablediv
+{
+    height: 600px;
+    border: 2px solid #dfdfdf;
+    margin-top: 10px;
+    font-size: 14px;
+    overflow: auto;
+}
+.tableleftchild{
+    float: left;
+    width: 50%;
+    border-right: 1px solid #dfdfdf;
+    height: 36px;
+    text-align: center;
+    padding-top: 15px;
+    
+}
+.tablerightchild{
+    text-align: center;
+    margin-top: 14px;
+    height: 36px;
+    border-bottom: 1px solid #dfdfdf;
+
+}
+.columndiv
+{
+    height: 150px;
+    clear: both;
+    border-bottom: 1px solid #dfdfdf;
+
+}
+.leftcolumn{
+    width: 50%;
+    float: left;
+    text-align: center;
+    display: table;
+    color: #179ae8;
+    height: 150px;
+    border-right: 1px solid #dfdfdf;
+}
+.rightcolumn{
+    width: 47%;
+    float: left;
+    overflow: auto;
+    
+}
+
+.list ul{
+    list-style-type: none;
+}
+
+.list ul li::before 
+{
+    content: "\2022";
+    color:#179ae8;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+.list li
+{
+    padding: 4px;
+    color: black;
+}
+.columndiv1
+{
+    height: 150px;
+    clear: both;
+}
+.child2div
+{
+    width: 49%;
+    float: left;
+    height: 660px;
+    padding: 10px;
+    overflow: auto;
+}
+.table2leftchild
+{
+    float: left;
+    width: 50%;
+    border-right: 1px solid #dfdfdf;
+    height: 85px;
+    text-align: center;
+    padding-top: 35px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #dfdfdf;
+}
+.table2rightchild
+{
+   
+    width: 50%;
+    text-align: center;
+    margin-top: 14px;
+    height: 70px;
+    border-bottom: 1px solid #dfdfdf;
+    float: left;
+    
+    
+}
+.subchild1
+{
+    width: 50%;
+    float: left;
+}
+.subchild2{
+    width: 50%;
+    float: left;
+}
+.div4
+{
+    border-bottom: 1px solid #dfdfdf;
+    padding: 7px;
+}
+.table{
+    width: 100%;
+    height: 564px;
+    text-align: center;
+    padding: 1px;
+    border-left: 1px solid #dfdfdf;
+    border-top: 1px solid #dfdfdf;
+    overflow: auto;
+}
+.table th{
+    padding: 10px;
+    border-bottom: 1px solid #d6d6d6;
+    border-right: 1px solid #d6d6d6;
+    
+}
+.table td{
+    padding: 0px;
+    border-bottom: 1px solid #d6d6d6;
+    border-right: 1px solid #d6d6d6;
+    
+}
+#color{
+    color: #1794e3;
+}
+#color2{
+    color: #fed56b;
+}
+#border{
+    border-bottom: none;
+}
+span
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+@media only screen and (max-width:365px)
+{
+
+}
+
+
+
+
+@media only screen and (max-width:760px)
+{
+
+    .child1div
+    {
+        width: 50%;
+    }
+.child2div
+{
+    width: 44%;
+}
+.rightcolumn
+{
+    width: 47%;
+    float: left;
+    overflow: auto;
+    height: 141px
+}
+}
+
+
+@media only screen and (min-width:1280px)
+{
+    .child1div
+    {
+        width: 50%;
+    }
+.child2div
+{
+    width: 46%;
+}
+}
+
+
+
