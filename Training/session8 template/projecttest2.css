@@ -1,0 +1,690 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.maxwidth{
+    max-width: 1200px;
+       margin: auto;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+    header
+    {
+        width: 100%;
+background-image: url(https://pbs.twimg.com/media/EEQmNGfXsAEw37O.jpg);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+        
+
+    }
+
+.headerparent{
+    width: 100%;
+    clear: both;
+    height: 177px;
+}
+.headerchild1
+{
+    width: 50%;
+    color: white;
+    padding-top: 20px;
+    float: left;
+}
+#p
+{
+    margin: 0px;
+    font-size: 10px;
+    padding-left: 26px;
+    word-spacing: 4px;
+}
+.headerchild2{
+    width: 50%;
+    float: left;
+    padding-top: 27px;
+}
+.headerchild2 ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.headerchild2 li{
+    display: inline;
+    float: left;
+    padding: 3px;
+}
+.headerchild2 a{
+    text-decoration: none;
+    color: white;    
+    padding-bottom: 20px;
+
+    padding: 13px;
+}
+.headerchild2 li a.active{
+    border: 1px solid white;
+    padding: 5px 15px 5px 15px;
+}
+.textdiv
+{
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+.textdiv img{
+    border-radius: 50%;
+}
+.textdiv h1{
+    font-size: 50px;
+}
+.textdiv p
+{
+    font-size: 40px;
+    padding-top: 50px;
+}
+.text2div{
+    background-color: #2f5a81;
+   overflow: hidden;
+    text-align: center;
+    color: white;
+    padding-top: 110px;
+    border-bottom-right-radius: 100px;
+    padding-bottom: 50px;
+}
+.parent{
+    clear: both;
+}
+.child{
+    width: 31%;
+    float: left;
+    margin-right: 10px;
+}
+.child img{
+    width: 100px;
+   border-radius: 50%;
+  
+}
+.child p
+{
+    font-size: 29px;
+}
+
+
+.sectiontextdiv{
+   padding-bottom: 100px;
+    background-image: linear-gradient(#f2f2f2,#f0f0f0,#efefef);
+    text-align: center;
+}
+.spandiv
+{
+    padding-top: 100px;
+    font-size: 45px;
+    padding-bottom: 30px;
+}
+.spandiv p{
+    font-size: 25px;
+    padding-top: 10px;
+}
+.sectionchild1
+{
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 31%;
+    overflow: hidden;
+    float: left;
+    margin-left: 15px;
+    background-color: white;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 20px;
+    padding-bottom: 69px;
+}
+
+.sectionchild1 h1
+{
+    padding-top: 35px;
+    font-size: 30px;
+}
+.sectionchild1 p
+{
+    font-size: 19px;
+    padding-bottom: 20px;
+}
+
+.sectionchild1 a
+{
+    text-decoration: none;
+    color: #2b7bbd;
+    border: 1px solid #1970b8;
+    padding: 10px;
+}
+.logoimage
+{
+    text-align: center;
+}
+.logoimage img
+{
+    border-radius: 50%;
+    width: 100px;
+}
+.button
+{
+    padding-top: 70px;
+}
+.button a
+{
+    text-align: center;
+   background-color: #1b71b9;
+   border-radius: 3px;
+   text-decoration: none;
+   color: white;
+   padding: 15px 25px 15px 25px;
+}
+.parentdiv{
+  overflow: hidden;
+}
+
+.maindivision{
+    text-align: center;
+    padding-top: 100px;
+    overflow: hidden;
+    padding-bottom: 80px;
+}
+.maindivision span
+{
+    font-size: 40px;
+}
+.subdiv
+{
+    background-color: #cbcbcb;
+    border-radius: 20px;
+    padding-top: 172px;
+    padding-bottom: 172px;
+    margin-top: 70px;
+}
+.subdiv span
+{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.subdiv2
+{
+   width: 80%;
+   margin: 0 auto;
+   padding-top: 50px;
+}
+.subdivchild{
+    width: calc(20% - 20px);
+    float: left;
+    text-align: left;
+    margin: 0 10px;
+}
+.subdivchild span
+{
+    font-size: 27px;
+}
+.sectionmaindiv
+{
+   overflow: hidden;
+    background-color: #f2f2f2;
+    clear: both;
+    padding-bottom: 163px;
+}
+.firstsectiondiv1
+{
+   
+    width: 43%;
+    margin: 0 auto;
+    font-size: 23px;
+}
+.sectiondiv span
+{
+    font-size: 50px;
+}
+.sectiondiv{
+    text-align: center;
+    padding-top: 100px;
+}
+#red{
+    color: red;
+}
+.middlediv
+{
+   
+    display: block;
+    clear: both;
+}
+.circlediv
+{
+    width: 50%;
+    float: left;
+    padding-left: 56px;
+    padding-right: 33px; 
+    padding-bottom: 62px;
+    background-color: white;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 10px;
+    padding-top: 118px;
+
+}
+.circletextdiv
+{
+    width: 50%;
+    float: left;
+    position: relative;
+    left: -35px;
+    padding-top: 15px;
+    padding-top: 131px;
+}
+#greycircle
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #2f5a81;
+   float: left;
+   margin: 10px;
+}
+#greencircle
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #47ab3a;
+  float: left;
+  margin: 10px;
+}
+.mainparentdiv
+{
+    position: relative;
+    padding-top: 100px;
+}
+
+.circlediv2
+{
+    width: 50%;
+    float: left;
+    padding-left: 122px;
+    padding-right: 100px; 
+    padding-bottom: 202px;
+    background-color: white;
+    padding-top: 130px;
+}
+
+.circlediv3
+{
+    width: 50%;
+    float: left;
+    padding-left: 192px;
+    padding-right: 182px;
+    padding-bottom: 342px;
+    background-color: white;
+    padding-top: 129px;
+}
+.circlediv4
+{
+    width: 50%;
+    float: left;
+    padding-left: 257px;
+    padding-right: 223px;
+    background-color: white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 50px;
+    padding-top: 119px;
+    padding-bottom: 113px;
+}
+.circletextdiv span
+{
+    font-size: 30px;
+}
+.circletextdiv p
+{
+    padding-left: 25px;
+}
+.lastdiv
+{
+    clear: both;
+    text-align: center;
+    padding-top: 133px;
+}
+.lastdiv a
+{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #1374db;
+    padding: 15px 25px 15px 25px;
+}
+
+.circle1{
+    text-align: left;
+   height: 0px;
+    padding-left: 165px;
+   
+   
+}
+.parentcirclediv
+{
+    clear: both;
+}
+.circle1 img
+{
+    width: 75px;
+    border-radius: 50%;
+    border: 1px solid;
+   
+}
+.circle2{
+    text-align: center;
+    height: 0px;
+}
+
+
+.circle2 img
+{
+    width: 75px;
+    border-radius: 50%;
+    border: 1px solid;
+   
+}
+
+.circle3{
+    text-align: right;
+    padding-right: 179px;
+    height: 30px;
+}
+
+.circle3 img
+{
+    width: 75px;
+    border-radius: 50%;
+    border: 1px solid;
+}
+
+
+
+
+
+.footermaxwidth
+{
+   
+    max-width: 1200px;
+    margin: auto;
+    width: 100%;
+    clear: both;
+    
+}
+footer
+{
+    width: 100%;
+    background-color: #20333f;
+    border-top-left-radius: 72px;
+    
+    padding-bottom: 30px;
+   overflow: hidden;
+}
+.footerchild1
+{
+    width: 50%;
+    float: left;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.footerchild1 img
+{
+    width: 50px;
+    border-radius: 50%;
+    
+}
+.footerchild2
+{
+    width: 47%;
+    float: left;
+    margin: 0 auto;
+    border-left: 1px solid #57666e;
+    padding-left: 30px;
+    margin-top: 20px;
+    color: white;
+}
+.footerchild2 img{
+    width: 50px;
+    border-radius: 50px;
+}
+.footerchild2 label{
+    padding-left: 10px;
+}
+.footerchild2 form{
+    padding-top: 12px;
+}
+.footerchild2 input{
+    width: 70%;
+    padding: 23px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+input[type=submit] {
+    width: 30%;
+    background-color: #1374db;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+.parentdiv1
+
+{
+    width: 100%;
+    
+    clear: both;
+}
+
+.child1{
+    width: 50%;
+    float: left;
+    padding-top: 50px;
+    color: #dfe0e2;
+}
+.child2{
+    width: 50%;
+    float: left;
+    padding-top: 50px;
+    color: white;
+}
+
+.maindiv{
+    background-color: #6f767d;
+   overflow: hidden;
+}
+.child1 img{
+    width: 50px;
+    border-radius: 50px;
+    float: left;       
+
+}
+
+.list1{
+    float: left;
+    font-size: 15px;
+    height: 269px;
+}
+.list2
+{
+    float: left;
+    font-size: 15px;
+}
+.list1 ul{
+    margin: 6px;
+    list-style-type: none;
+}
+.list1 li{
+    padding: 10px;
+}
+.div1
+{
+    height: 90px;
+    float: right;
+}
+.div1 img
+{
+    width: 50px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+.div2
+{
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: right;
+    clear: both;
+}
+.div3{
+    width: 80%;
+    float: left;
+    color: white;
+}
+.firstsectiondiv
+{
+    text-align: center;
+    
+}
+
+
+@media only screen and (max-width:768px)
+{
+
+
+    section,body,footer,header{
+        width: 100%;
+        height: auto;
+    }
+    .circlediv {
+        
+            width: 100%;
+            float: left;
+            padding-bottom: 62px;
+            background-color: white;
+            border-top-right-radius: 50px;
+            border-top-left-radius: 10px;
+            padding-top: 118px;
+            padding-left: 136px;
+            padding-right: 131px;
+        
+    }
+    .circletextdiv {
+       
+        padding-top: 50px;
+        width: 100%;
+        padding-left: 72px;
+        
+    }
+
+
+    .circlediv2 {
+        width: 100%;
+        padding-left: 225px;
+        padding-right: 184px;
+        padding-bottom: 202px;
+        background-color: white;
+    padding-top: 130px;
+    }
+
+
+    .circlediv3 {
+        width: 100%;
+        padding-left: 289px;
+        padding-right: 213px;
+        padding-bottom: 342px;
+        background-color: white;
+        padding-top: 129px;
+    }
+
+    .circlediv4 {
+        width: 100%;
+        padding-left: 370px;
+        background-color: white;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 50px;
+        padding-top: 119px;
+        padding-bottom: 113px;
+    }
+
+    .lastdiv {
+        clear: both;
+        text-align: center;
+        padding-top: 133px;
+    }
+
+
+    .sectionchild1 a {
+        text-decoration: none;
+        color: #2b7bbd;
+        border: 1px solid #1970b8;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+
+    .sectionchild1 {
+        width: 31%;
+        overflow: hidden;
+        padding: 0px;
+        float: left;
+        margin-left: 15px;
+        background-color: white;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-right-radius: 20px;
+        padding-bottom: 69px;
+    }
+
+
+    .circle1 {
+        text-align: left;
+        height: 0px;
+        padding-left: 97px;
+    }
+
+    .circle2 {
+        text-align: center;
+        height: 0px;
+        padding-left: 20px;
+    }
+
+    .circle3 {
+        text-align: right;
+        padding-right: 83px;
+        height: 30px;
+    }
+
+}
+
+@media only screen and (min-width:1280px)
+{
+    section,body,footer,header{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen  and (min-width:1440px)
+{
+    section,body,footer,header{
+        width: 100%;
+        height: auto;
+    }
+}

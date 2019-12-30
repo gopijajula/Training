@@ -1,0 +1,475 @@
+*{
+    box-sizing: border-box;
+}
+
+    body{
+        font-family: sans-serif;
+        margin: 0px;
+    }
+    header
+    {
+        width: 100%;
+        background-color: #20333f;
+        border-bottom-left-radius: 26%;
+        border-bottom-right-radius: 26%;
+        padding-bottom: 20px;
+
+    }
+    .headermaxwidth
+    {
+        max-width: 1200px;
+       margin: auto;
+    }
+
+.headerchild1
+{
+    width: 50%;
+    color: white;
+    padding-top: 20px;
+    float: left;
+}
+.headerparent{
+    width: 100%;
+    clear: both;
+    height: 177px;
+}
+#p
+{
+    margin: 0px;
+    font-size: 10px;
+    padding-left: 26px;
+    word-spacing: 4px;
+}
+.headerchild2{
+    width: 50%;
+    float: left;
+    padding-top: 27px;
+}
+.headerchild2 ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.headerchild2 li{
+    display: inline;
+    float: left;
+    padding: 3px;
+}
+.headerchild2 a{
+    text-decoration: none;
+    color: white;    
+    padding-bottom: 20px;
+
+    padding: 13px;
+}
+.headerchild2 li a.active{
+    border: 1px solid white;
+    padding: 5px 15px 5px 15px;
+}
+.textdiv{
+    text-align: center;
+    color: white;
+}
+.textdiv img{
+    width: 100px;
+    height: auto;
+}
+section{
+    width: 100%;
+    height: auto;
+}
+.sectionmaxwidth
+{
+    max-width: 1200px;
+    margin: auto;
+}
+.sectiontextdiv
+{
+    color: #9b9b9b;
+    height: 180px;
+}
+.sectiontextdiv img
+{
+    border-radius: 50px;
+    width: 150px;
+}
+.sectiontextdiv ul{
+    list-style-type: none;
+    padding: 0px;
+}
+.sectiontextdiv li{
+    float: left;
+    padding: 38px;
+    font-size: 38px;
+}
+.sectiondiv{
+    background-color: #f2f2f2;
+    width: 80%;
+    font-size: 13px;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 77px;
+    margin: 0 auto;
+}
+.sectiondiv span{
+    padding-top: 20px;
+}
+.sectiontextdiv img{
+    border-radius: 50%;
+    
+}
+
+.sectiondiv span
+{
+    text-align: center;
+    font-size: 30px;
+   
+}
+
+.sectiondiv a{
+    color: #187cdc;
+    text-decoration: none;
+    font-size: 30px;
+}
+.sectionparentdiv
+{
+    width: 100%;
+    clear: both;
+    padding-top: 50px;
+}
+.sectionchild1{
+    width: 64%;
+    float: left;
+    padding-top: 80px;
+}
+.sectionchild1 img{
+    width: 90%;
+   border-radius: 30px;
+   height: 400px;
+   
+}
+.sectionchild2{
+    width: 36%;
+    float: left;
+}
+
+#ourproducts{
+    text-align: center;
+    font-size: 45px;
+    font-weight: normal;
+}
+
+.sectiondiv p
+{
+    font-size: 30px;
+    padding: 52px 101px;
+    margin: 0px;
+}
+#button{
+    background-color: #1374db;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+}
+
+.sectionchild2 h1
+{
+    margin-left: 26px;
+}
+.sectionchild2 p{
+    margin-left: 26px;
+    color: #5a5a5a;
+   
+}
+.sectionchild2div{
+    border-left: 4px solid #1b71b9;
+    height: 152px;
+    padding-top: 3px;
+    margin-top: 32px;
+}
+.parentdiv{
+    width: 100%;
+    padding: 0 139px;
+    clear: both;
+    height: 300px;
+    padding-top: 50px;
+    margin: 0 auto;
+  
+}
+
+.imagediv{
+    width: 50%;
+  float: left;
+   
+}
+
+.imagediv img{
+    width: 90%;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.analyticsdiv
+{
+    width: 50%;
+    float: left;
+    color: black;
+    text-align: left;
+    padding-top: 20px;
+}
+.analyticsdiv p{
+    font-size: 17px;
+    color: #474747;
+}
+
+.analyticsdiv span
+{
+    font-size: 36px;
+}
+.analyticsdiv1
+{
+    padding-top: 30px;
+}
+.analyticsdiv1 a
+{
+    text-decoration: none;
+    color: #1374db;
+    border: 1px solid #1374db;
+    padding: 20px;
+}
+
+
+
+
+
+
+.footermaxwidth
+{
+   
+    max-width: 1200px;
+    margin: auto;
+    width: 100%;
+    clear: both;
+    
+}
+footer
+{
+    width: 100%;
+    background-color: #20333f;
+    border-top-left-radius: 72px;
+    margin-top: 100px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.footerchild1
+{
+    width: 50%;
+    float: left;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.footerchild1 img
+{
+    width: 50px;
+    border-radius: 50%;
+    
+}
+.footerchild2
+{
+    width: 50%;
+    float: left;
+    margin: 0 auto;
+    border-left: 1px solid #57666e;
+    padding-left: 30px;
+    margin-top: 20px;
+    color: white;
+}
+.footerchild2 img{
+    width: 50px;
+    border-radius: 50px;
+}
+.footerchild2 label{
+    padding-left: 10px;
+}
+.footerchild2 form{
+    padding-top: 12px;
+}
+.footerchild2 input{
+    width: 70%;
+    padding: 23px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+input[type=submit] {
+    width: 30%;
+    background-color: #1374db;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+.parentdiv1
+
+{
+    width: 100%;
+    
+    clear: both;
+}
+
+.child1{
+    width: 50%;
+    float: left;
+    padding-top: 50px;
+    color: #dfe0e2;
+}
+.child2{
+    width: 50%;
+    float: left;
+    padding-top: 50px;
+    color: white;
+}
+.maxwidth{
+    max-width: 1250px;
+    margin: auto;
+    
+}
+.maindiv{
+    background-color: #6f767d;
+    overflow: hidden;
+}
+.child1 img{
+    width: 50px;
+    border-radius: 50px;
+    float: left;       
+
+}
+
+.list1{
+    float: left;
+    font-size: 15px;
+    height: 269px;
+}
+.list2
+{
+    float: left;
+    font-size: 15px;
+}
+.list1 ul{
+    margin: 6px;
+    list-style-type: none;
+}
+.list1 li{
+    padding: 10px;
+}
+.div1
+{
+    height: 90px;
+    float: right;
+}
+.div1 img
+{
+    width: 50px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+.div2
+{
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: right;
+    clear: both;
+}
+.div3{
+    width: 80%;
+    float: left;
+    color: white;
+}
+
+@media only screen and (min-width:375px)
+{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:768px)
+{
+    .sectiontextdiv li {
+        float: left;
+        padding: 30px;
+        font-size: 25px;
+    }
+   
+}
+
+@media only screen and (min-width:1280px)
+{
+    .sectiontextdiv li {
+        padding: 27px;
+        font-size: 44px;
+    }
+}
+
+
+
+
+
+
+
+ @media only screen and (min-width:1440px)
+{
+    body{
+        width: 100%;
+        margin: 0px;
+    }
+    .headermaxwidth
+    {
+        width: 100%;
+    }
+    header,section,footer{
+        width: 100%;
+
+    }
+    .sectiontextdiv li {
+        padding: 27px;
+        font-size: 44px;
+    }
+} 
+
+
+
+   
+
+
+
+
+
